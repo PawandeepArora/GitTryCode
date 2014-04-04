@@ -7,7 +7,7 @@ import java.sql.SQLException;
 
 public class DBConfigFactory {
 	private static Connection db2conn = null;
-
+	//This is a Git comment
 	public static Connection getConnection() {
 		if (db2conn != null) {
 			return db2conn;
